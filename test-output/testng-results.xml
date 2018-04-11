@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="143" started-at="2018-04-08T15:49:43Z" finished-at="2018-04-08T15:49:43Z">
+  <suite name="Default suite" duration-ms="231" started-at="2018-04-11T01:58:17Z" finished-at="2018-04-11T01:58:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="143" started-at="2018-04-08T15:49:43Z" finished-at="2018-04-08T15:49:43Z">
+    <test name="Default test" duration-ms="231" started-at="2018-04-11T01:58:17Z" finished-at="2018-04-11T01:58:18Z">
       <class name="tests.ClassWork">
-        <test-method status="FAIL" signature="testingFirstName()[pri:0, instance:tests.ClassWork@68be2bc2]" name="testingFirstName" duration-ms="104" started-at="2018-04-08T15:49:43Z" finished-at="2018-04-08T15:49:43Z">
+        <test-method status="FAIL" signature="testingFirstName()[pri:0, instance:tests.ClassWork@68be2bc2]" name="testingFirstName" duration-ms="152" started-at="2018-04-11T01:58:17Z" finished-at="2018-04-11T01:58:18Z">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html]]>
