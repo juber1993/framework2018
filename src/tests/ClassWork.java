@@ -17,6 +17,8 @@ public class ClassWork extends Config {
 	@Test
 	public void testingFirstName() {
 		
+		APPLICATION_LOGS.debug("My TEST Started");
+		
 		System.out.println("testingFirstName");
 		
 		// xpath - webelement / locators div /2
@@ -34,7 +36,7 @@ public class ClassWork extends Config {
 		//Last name 
 		typeByXpath(loc.lnameLocator, val.lnameValue);
 		
-
+		APPLICATION_LOGS.debug("My TEST Ended");
 		
 	}
 
