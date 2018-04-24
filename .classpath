@@ -15,5 +15,7 @@
 	<classpathentry kind="lib" path="C:/Users/JUBER AHMED/Framework/framework2018/jars/httpcore-4.4.6.jar"/>
 	<classpathentry kind="lib" path="C:/Users/JUBER AHMED/Framework/framework2018/jars/okhttp-3.9.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/JUBER AHMED/Framework/framework2018/jars/okio-1.13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/JUBER AHMED/Framework/framework2018/jars/dom4j.jar"/>
+	<classpathentry kind="lib" path="C:/Users/JUBER AHMED/Framework/framework2018/jars/log4j-1.2.17.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
