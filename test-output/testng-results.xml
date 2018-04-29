@@ -2,35 +2,35 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="49128" started-at="2018-04-24T03:23:45Z" finished-at="2018-04-24T03:24:34Z">
+  <suite name="Default suite" duration-ms="11206" started-at="2018-04-24T15:34:00Z" finished-at="2018-04-24T15:34:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="49128" started-at="2018-04-24T03:23:45Z" finished-at="2018-04-24T03:24:34Z">
+    <test name="Default test" duration-ms="11206" started-at="2018-04-24T15:34:00Z" finished-at="2018-04-24T15:34:11Z">
       <class name="tests.ClassWork">
-        <test-method status="PASS" signature="initDrivers()[pri:0, instance:tests.ClassWork@343f4d3d]" name="initDrivers" is-config="true" duration-ms="48801" started-at="2018-04-24T03:23:45Z" finished-at="2018-04-24T03:24:33Z">
+        <test-method status="PASS" signature="initDrivers()[pri:0, instance:tests.ClassWork@343f4d3d]" name="initDrivers" is-config="true" duration-ms="11121" started-at="2018-04-24T15:34:00Z" finished-at="2018-04-24T15:34:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDrivers -->
-        <test-method status="FAIL" signature="testingFirstName()[pri:0, instance:tests.ClassWork@343f4d3d]" name="testingFirstName" duration-ms="251" started-at="2018-04-24T03:24:33Z" finished-at="2018-04-24T03:24:34Z">
+        <test-method status="FAIL" signature="testingFirstName()[pri:0, instance:tests.ClassWork@343f4d3d]" name="testingFirstName" duration-ms="49" started-at="2018-04-24T15:34:11Z" finished-at="2018-04-24T15:34:11Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: //*[@id='u_0_7']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'
-System info: host: 'DESKTOP-4CUQ89R', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+System info: host: 'DESKTOP-4CUQ89R', ip: '10.42.143.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10284, moz:profile: C:\Users\JUBER AHMED\AppDat..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 32784f32-5b97-484b-9c4f-27d1b44cc834
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13836, moz:profile: C:\Users\JUBER AHMED\AppDat..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: a2ee013a-6042-42ed-bb6b-59ff3c4b1395
 *** Element info: {Using=xpath, value=//*[@id='u_0_7']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id='u_0_7']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'
-System info: host: 'DESKTOP-4CUQ89R', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+System info: host: 'DESKTOP-4CUQ89R', ip: '10.42.143.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10284, moz:profile: C:\Users\JUBER AHMED\AppDat..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 32784f32-5b97-484b-9c4f-27d1b44cc834
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13836, moz:profile: C:\Users\JUBER AHMED\AppDat..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: a2ee013a-6042-42ed-bb6b-59ff3c4b1395
 *** Element info: {Using=xpath, value=//*[@id='u_0_7']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
